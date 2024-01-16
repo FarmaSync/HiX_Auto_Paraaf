@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['auto_paraaf_tkinter.py'],
+    ['HiX_auto_paraaf'],
     pathex=[],
     binaries=[],
     datas=[('.\\crab_1261120.ico', '.\\crab_1261120.ico')],
@@ -21,7 +21,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='HiX Auto Paraaf',
+    name='HiX Auto Paraaf v1.0',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
